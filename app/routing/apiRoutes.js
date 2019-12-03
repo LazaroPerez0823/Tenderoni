@@ -13,11 +13,8 @@ module.exports = app => {
 
 
     newFriend.scores.forEach(stuff => {
-
-      
   
           stuff.scores = parseInt(stuff.scores);
-      
       })
 
 
